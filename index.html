@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+
+    <title>Juego de suma</title>
+</head>
+<body>
+    
+    <h1>Juego de Suma</h1>
+    <h2>Para aprender jugando!!</h2>
+
+    <div class="container">
+        <div class="izquierdo">
+            <div class="container-operacion">
+                <span id="suma">9 + 9 =</span>
+                <span class="resultado" id="resultado">18</span>
+            </div>
+            <span id="msj" class="msj">Es Correcto!!</span>
+        </div>
+        <div class="derecha">
+            <span id="op1" class="opcion" onclick="controlarResultado(this)">18</span>
+            <span id="op2" class="opcion" onclick="controlarResultado(this)">18</span>
+            <span id="op3" class="opcion" onclick="controlarResultado(this)">18</span>
+        </div>
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body {
+    text-align: center;
+    color: rgb(53, 22, 22);
+    background-color: darkgoldenrod;
+}
+
+h1 {
+    padding: 20px;
+    font-size: 40px;
+}
+
+h2 {
+    padding: 40px;
+    margin-top: -15px;
+} 
+
+.container {
+    background: #59C173;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #5D26C1, #a17fe0, #59C173);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #5D26C1, #a17fe0, #59C173); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    max-width: 700px;
+    margin: auto;
+    border: 2px solid black;
+    border-radius: 15px;
+    display: flex;
+    padding: 50px 0;
+
+}
+
+.izquierdo {
+    width: 70%;
+    font-size: 70px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.derecha {
+    width: 30%;
+}
+
+.msj {
+    font-size: 40px;
+    height: 50px;
+}
+
+.opcion {
+    width: 80px;
+    height: 80px;
+    border: 1px solid black;
+    font-size: 50px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.opcion:hover {
+    background-color: rgb(17, 150, 238);
+    color: black;
+}
